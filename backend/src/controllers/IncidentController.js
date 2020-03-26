@@ -43,6 +43,7 @@ module.exports = {
 
         const incident = await connection('incidents').where('id', id).select('ong_id').first(); 
 
+        
         if(incident.ong_id !== ong_id)
         {
             return response.status(401).json({erro: 'Operation not Permitted'}); //retorna o status 401 'não autorizado'

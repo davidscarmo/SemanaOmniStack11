@@ -35,6 +35,17 @@ form input
     border-radius: 8px;
     padding: 0 24px;
 }
+form textarea
+{
+    width: 100%;
+    min-height: 140px;
+    resize: vertical;
+    color: #333333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
 
 .button 
 {
@@ -57,4 +68,26 @@ form input
 .button:hover
 {
     filter: brightness(90%);
+}
+
+.back-link 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-link svg
+{
+    margin-right: 8px;
+}
+
+.back-link:hover
+{
+    opacity: 0,8;
 }
