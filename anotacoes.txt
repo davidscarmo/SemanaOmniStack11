@@ -16,3 +16,14 @@
   *  Request Body: Corpo da requisição, utilizado para criar ou alterar recursos 
   */
 
+
+Entidades aplicação 
+
+-> ONG
+-> Caso(incident)
+
+Funcionalidades
+ONG-> Login, Logout, Cadastro, Cadastrar/Listar/Deletar casos específico
+
+Listar todos os casos 
+Entrar em contato com a ONG
